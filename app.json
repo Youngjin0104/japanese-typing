@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "일본어 타자 연습",
+    "slug": "japanese-typing-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAF6EF"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yj.japanesetyping"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FAF6EF"
+      },
+      "package": "com.yj.japanesetyping",
+      "versionCode": 1,
+      "permissions": ["com.google.android.gms.permission.AD_ID"]
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "minSdkVersion": 24
+          }
+        }
+      ],
+      "./plugins/withAndroidAdMob"
+    ],
+    "extra": {
+      "eas": { "projectId": "21ad0589-4e45-4f33-93b7-9002717fc8a0" }
+    }
+  }
+}
+

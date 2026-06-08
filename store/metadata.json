@@ -1,0 +1,53 @@
+{
+  "_comment": "App Store Connect / Google Play Console 입력용 메타데이터",
+
+  "app": {
+    "name_ko":  "일본어 타자 연습",
+    "name_ja":  "日本語タイピング練習",
+    "name_en":  "Japanese Typing Practice",
+    "bundle_id_ios":     "com.yourname.japanesetyping",
+    "bundle_id_android": "com.yourname.japanesetyping",
+    "version": "1.0.0",
+    "build":   "1",
+    "category_ios":     "Education",
+    "category_android": "EDUCATION",
+    "content_rating":   "4+",
+    "price":            "Free"
+  },
+
+  "ios": {
+    "subtitle_ko":  "전래동화·속담·단어카드로 배우는 일본어",
+    "subtitle_en":  "Learn Japanese with Folk Tales & Flashcards",
+
+    "description_ko": "📖 일본 전래동화로 배우는 일본어 타자 연습!\n\n【특징】\n• 전래동화 9편 — 모모타로, 우라시마 타로, 가구야 히메 등\n• 속담·명언·일상회화·계절표현·음식 표현 5개 카테고리\n• JLPT N5~N3 단어 60개 카드\n• 히라가나 모드·후리가나 표시 옵션\n• 타수, 정확도, 경과시간 실시간 표시\n• 학습 진도 자동 저장\n\n【이런 분께 추천】\n• 일본어 공부를 막 시작한 입문자\n• JLPT 시험을 준비하는 학습자\n• 일본어 타자 속도를 높이고 싶은 분\n\n완전 오프라인 동작 · 광고 없음 · 개인정보 수집 없음",
+
+    "description_en": "📖 Practice Japanese typing with traditional folk tales!\n\n【Features】\n• 9 Japanese folk tales — Momotaro, Urashima Taro, Kaguya Hime & more\n• 5 categories: Proverbs, Quotes, Daily Conversation, Seasons, Food\n• 60 vocabulary flashcards (JLPT N5~N3)\n• Hiragana-only mode & furigana display options\n• Real-time CPM, accuracy, and time tracking\n• Automatic progress saving\n\n【Perfect for】\n• Beginners starting Japanese\n• JLPT exam preparation\n• Improving Japanese typing speed\n\nFully offline · No ads · No personal data collected",
+
+    "keywords_ko": "일본어,타자,JLPT,히라가나,가타카나,한자,전래동화,플래시카드,공부,연습",
+    "keywords_en": "Japanese,typing,JLPT,hiragana,katakana,kanji,folk tale,flashcard,study,practice",
+
+    "promotional_text_ko": "전래동화로 즐겁게 배우는 일본어 타자 연습 🌸 완전 무료",
+    "promotional_text_en": "Fun Japanese typing practice with folk tales 🌸 Completely free",
+
+    "support_url":     "https://github.com/yourname/japanese-typing-app",
+    "marketing_url":   "https://github.com/yourname/japanese-typing-app",
+    "privacy_policy":  "https://yourname.github.io/japanese-typing-app/privacy-policy.html",
+
+    "screenshots_required": {
+      "6.5inch": "store/screenshots/6.5inch.png (최소 3장)",
+      "5.5inch": "store/screenshots/5.5inch.png (최소 3장)",
+      "iPad_12.9inch": "선택 사항"
+    },
+
+    "review_notes": "This app does not require login. All content is bundled offline. The app teaches Japanese typing using traditional folk tales and vocabulary flashcards. No personal data is collected."
+  },
+
+  "android": {
+    "short_description_ko": "전래동화·속담·단어카드로 배우는 일본어 타자 연습 앱",
+    "short_description_en": "Learn Japanese typing with folk tales, proverbs & flashcards",
+
+    "full_description_ko": "📖 일본 전래동화로 배우는 일본어 타자 연습!\n\n■ 콘텐츠\n・전래동화 9편 (모모타로, 우라시마 타로, 가구야 히메, 잇촌보시 등)\n・속담·명언·일상회화·계절표현·음식 표현\n・JLPT N5~N3 단어 60개 플래시카드\n\n■ 기능\n・히라가나 모드 (한자 숨기기)\n・후리가나(振仮名) 표시\n・실시간 타수(CPM)·정확도·시간 측정\n・학습 진도 자동 저장\n・완전 오프라인 동작\n\n■ 특징\n・광고 없음\n・개인정보 수집 없음\n・계정 불필요\n\n일본어를 처음 배우는 분부터 JLPT 시험 준비생까지 모두에게 추천합니다!",
+
+    "graphic_asset": "store/screenshots/feature-graphic.png (1024×500px 필요)"
+  }
+}

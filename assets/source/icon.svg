@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <!-- 배경 그라디언트 -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#D4622E"/>
+      <stop offset="100%" stop-color="#B84020"/>
+    </linearGradient>
+    <!-- 내부 원 그라디언트 -->
+    <linearGradient id="circle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#FAF6EF"/>
+      <stop offset="100%" stop-color="#F0E6D0"/>
+    </linearGradient>
+    <!-- 벚꽃 그라디언트 -->
+    <linearGradient id="petal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#FFE4EE"/>
+      <stop offset="100%" stop-color="#FFB8CF"/>
+    </linearGradient>
+    <!-- 그림자 필터 -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="20" flood-color="#00000030"/>
+    </filter>
+  </defs>
+
+  <!-- 배경 라운드 사각형 -->
+  <rect width="1024" height="1024" rx="220" ry="220" fill="url(#bg)"/>
+
+  <!-- 배경 패턴 — 은은한 격자 -->
+  <g opacity="0.08">
+    <line x1="0" y1="256" x2="1024" y2="256" stroke="#fff" stroke-width="1.5"/>
+    <line x1="0" y1="512" x2="1024" y2="512" stroke="#fff" stroke-width="1.5"/>
+    <line x1="0" y1="768" x2="1024" y2="768" stroke="#fff" stroke-width="1.5"/>
+    <line x1="256" y1="0" x2="256" y2="1024" stroke="#fff" stroke-width="1.5"/>
+    <line x1="512" y1="0" x2="512" y2="1024" stroke="#fff" stroke-width="1.5"/>
+    <line x1="768" y1="0" x2="768" y2="1024" stroke="#fff" stroke-width="1.5"/>
+  </g>
+
+  <!-- 중앙 원형 배경 -->
+  <circle cx="512" cy="512" r="360" fill="url(#circle)" filter="url(#shadow)"/>
+
+  <!-- 한자 「日」 -->
+  <text
+    x="512" y="580"
+    text-anchor="middle"
+    font-family="'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', sans-serif"
+    font-weight="900"
+    font-size="380"
+    fill="#C8522A"
+    letter-spacing="-10"
+  >日</text>
+
+  <!-- 벚꽃 5개 — 오른쪽 상단 -->
+  <g transform="translate(760,200) rotate(15)" opacity="0.9">
+    <!-- 꽃잎 5장 -->
+    <g>
+      <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(288)"/>
+    </g>
+    <circle cx="0" cy="0" r="10" fill="#FFD0E8"/>
+  </g>
+
+  <!-- 벚꽃 — 왼쪽 하단 (작게) -->
+  <g transform="translate(240,820) rotate(-20) scale(0.7)" opacity="0.75">
+    <g>
+      <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(288)"/>
+    </g>
+    <circle cx="0" cy="0" r="10" fill="#FFD0E8"/>
+  </g>
+
+  <!-- 하단 앱명 라벨 -->
+  <rect x="312" y="858" width="400" height="60" rx="30" fill="#ffffff20"/>
+  <text
+    x="512" y="898"
+    text-anchor="middle"
+    font-family="'Hiragino Sans', sans-serif"
+    font-weight="700"
+    font-size="34"
+    fill="#ffffff"
+    letter-spacing="2"
+  >日本語タイピング</text>
+</svg>

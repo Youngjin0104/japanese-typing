@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1284 2778" width="1284" height="2778">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#FAF6EF"/>
+      <stop offset="100%" stop-color="#F2E8D8"/>
+    </linearGradient>
+    <linearGradient id="circleBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#D4622E"/>
+      <stop offset="100%" stop-color="#B84020"/>
+    </linearGradient>
+    <linearGradient id="petal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#FFE4EE"/>
+      <stop offset="100%" stop-color="#FFAAC8"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="16" stdDeviation="40" flood-color="#C8522A22"/>
+    </filter>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="1284" height="2778" fill="url(#bg)"/>
+
+  <!-- 은은한 점 패턴 -->
+  <g opacity="0.06">
+    <circle cx="100"  cy="200"  r="6" fill="#C8522A"/>
+    <circle cx="300"  cy="400"  r="4" fill="#B87818"/>
+    <circle cx="1100" cy="300"  r="5" fill="#C8522A"/>
+    <circle cx="900"  cy="150"  r="7" fill="#B87818"/>
+    <circle cx="200"  cy="2500" r="5" fill="#C8522A"/>
+    <circle cx="1050" cy="2600" r="6" fill="#B87818"/>
+    <circle cx="400"  cy="2700" r="4" fill="#C8522A"/>
+  </g>
+
+  <!-- 중앙 원형 아이콘 -->
+  <circle cx="642" cy="1160" r="320" fill="url(#circleBg)" filter="url(#shadow)"/>
+  <circle cx="642" cy="1160" r="265" fill="#FAF6EF"/>
+  <text
+    x="642" y="1270"
+    text-anchor="middle"
+    font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif"
+    font-weight="900"
+    font-size="310"
+    fill="#C8522A"
+  >日</text>
+
+  <!-- 벚꽃 장식 — 상단 -->
+  <g transform="translate(200,500) rotate(10) scale(1.8)" opacity="0.7">
+    <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(72)"/>
+    <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(144)"/>
+    <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(216)"/>
+    <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(288)"/>
+    <circle cx="0" cy="0" r="12" fill="#FFD0E8"/>
+  </g>
+  <g transform="translate(1060,620) rotate(-15) scale(1.4)" opacity="0.65">
+    <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(36)"/>
+    <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(108)"/>
+    <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(252)"/>
+    <ellipse cx="0" cy="-28" rx="14" ry="28" fill="url(#petal)" transform="rotate(324)"/>
+    <circle cx="0" cy="0" r="12" fill="#FFD0E8"/>
+  </g>
+
+  <!-- 앱 이름 (한국어) -->
+  <text
+    x="642" y="1600"
+    text-anchor="middle"
+    font-family="'Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"
+    font-weight="700"
+    font-size="80"
+    fill="#2A1E0E"
+    letter-spacing="4"
+  >일본어 타자 연습</text>
+
+  <!-- 앱 이름 (일본어 서브) -->
+  <text
+    x="642" y="1700"
+    text-anchor="middle"
+    font-family="'Hiragino Sans','Yu Gothic',sans-serif"
+    font-weight="400"
+    font-size="52"
+    fill="#9A8470"
+    letter-spacing="6"
+  >日本語タイピング練習</text>
+
+  <!-- 구분선 -->
+  <line x1="442" y1="1760" x2="842" y2="1760" stroke="#DDD3C0" stroke-width="2"/>
+
+  <!-- 태그라인 -->
+  <text
+    x="642" y="1840"
+    text-anchor="middle"
+    font-family="'Apple SD Gothic Neo','Noto Sans KR',sans-serif"
+    font-weight="400"
+    font-size="40"
+    fill="#C8B49A"
+    letter-spacing="2"
+  >전래동화 · 속담 · 단어카드</text>
+</svg>
